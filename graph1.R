@@ -128,7 +128,7 @@ ggplot()+
     labels=c("Jan.","Mar.","May.","Jul.","Sept.","Dec.")
   ) +
   labs( title="2020年國際主要股市指數",
-        subtitle=" % change since January 2020",
+        subtitle="%change_since_January_2020",
         caption="Source:https://www.twse.com.tw/zh/",
         x = "", 
         y = "% change",
