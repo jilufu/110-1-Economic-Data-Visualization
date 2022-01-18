@@ -30,7 +30,7 @@ position100$inner_data <- position100$inner_data[,-c(4,5)]
 
 position100$cut_inner_data <- position100$inner_data
 position100$cut_inner_data$人數 |> cut(c(0,20,50,75,100,161),ordered_result = T) -> .cut
-levels(.cut) <- c("0-20","20-50","50-75","75-100","100-161")
+levels(.cut) <- c("-20","20-50","50-75","75-100","100-161")
 position100$cut_inner_data$人數 <- .cut
 
 
